@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Описание страницы. Например: Ремонт Квартир в Москве. ">
+  <meta name="keywords" content="ключевые слова (для яндекса) через запятую: ремонт, установка окон, и т.д.">
+
+  <meta name="msapplication-TileColor" content="#2b5797">
+  <meta name="theme-color" content="#493c3c">
+  <link rel="apple-touch-icon" sizes="180x180" href="img/favicon/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="img/favicon/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="img/favicon/favicon-16x16.png">
+  <link rel="manifest" href="img/favicon/site.webmanifest">
+  <link rel="mask-icon" href="img/favicon/safari-pinned-tab.svg" color="#5bbad5">
+  <link rel="icon" href="img/favicon/apple-touch-icon.png">
+  <title>RemHouse</title>
+  <link rel="stylesheet" href="./css/main.css">
+  <link rel="stylesheet" href="./libs/youtubeLightbox/youtubeLightbox.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+</head>
+
+<body>
+  <header class="header none1">
+    <div class="header__top">
+      <div class="container">
+        <div class="header__top-row">
+
+          <a href="#!">
+            <img src="./img/logo.svg" alt="LoftHouse">
+          </a>
+
+          <div class="header__nav">
+            <nav class="nav">
+              <ul class="nav__list">
+                <li><a href="#!" data-scroll="#apartments">Портфолио</a></li>
+                <li><a href="#!" data-scroll="#works">Детали работы</a></li>
+                <li><a href="#!" data-scroll="#benefits">Как делаем</a></li>
+                <li><a href="#!" data-scroll="#cta">О нас</a></li>
+                <li><a href="#!" data-scroll="#section-map">Контакты</a></li>
+              </ul>
+            </nav>
+          </div>
+
+          <div class="header__nav-btn">
+            <button class="nav-icon-btn">
+              <div class="nav-icon"></div>
+            </button>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <h1 class="header__title">
+        Ремонт квартир <br>
+        в Москве и Московской области
+
+      </h1>
+
+      <p class="header__subtitle">
+        Ремонт квартир, коттеджей, загородных домов, офисов и других помещений – от косметического бюджетного до
+        элитного VIP ремонта
+        <a href="#benefits">
+          <img src="./img/header/mouse.svg" alt="Scroll next" class="header__title-icon">
+        </a>
+      </p>
+    </div>
+
+
+    <div class="header__footer">
+      <div class="text-right">
+        <a href="#section-map" class="info info--map">ул. Иниициативная 10-25</a>
+      </div>
+      <a href="tel:+78121234567" class="info info--tel">8 (812) 123-45-67</a>
+    </div>
+  </header>
+
+  <main>
+    <section class="benefits none1" id="benefits">
+      <h2 class="visually-hidden">Наши преимущества</h2>
+
+      <div class="container container--sm">
+        <div class="benefits__row">
+
+          <div class="benefits__item">
+            <img src="./img/benefits/measuring.svg" alt="icon-measuring" class="benefits__item-img">
+            <p class="benefits__item-text">Замер помещения для будующего ремонта</p>
+          </div>
+
+          <div class="benefits__item">
+            <img src="./img/benefits/estimafe.svg" alt="icon-estimafe" class="benefits__item-img">
+            <p class="benefits__item-text">Подробная смета работ</p>
+          </div>
+
+          <div class="benefits__item">
+            <img src="./img/benefits/computation.svg" alt="icon-computation" class="benefits__item-img">
+            <p class="benefits__item-text">Расчет стоимости материалов</p>
+          </div>
+
+          <div class="benefits__item">
+            <img src="./img/benefits/value.svg" alt="icon-value" class="benefits__item-img">
+            <p class="benefits__item-text">Предварительная стоимость работ</p>
+          </div>
+
+        </div>
+      </div>
+
+    </section>
+
+    <section class="apartments none1" id="apartments">
+      <div class="container">
+
+        <div class="apartments__title">
+          <h2 class="title-2">Наши работы</h2>
+        </div>
+
+        <div class="apartments__cards">
+
+          <a href="#!" class="card">
+            <img class="card__img" src="./img/cards/01.jpg" alt="Пентхаус “Loft Олимп”">
+            <h3 class="card__title">Ремонт в Пентхаус</h3>
+          </a>
+
+          <a href="#!" class="card">
+            <img class="card__img" src="./img/cards/02.jpg" alt="Пентхаус “Loft Олимп”">
+            <h3 class="card__title">Ремонт в Апартаментах</h3>
+          </a>
+
+          <a href="#!" class="card">
+            <img class="card__img" src="./img/cards/03.jpg" alt="Ремонт в Апартаментах”">
+            <h3 class="card__title">Ремонт в Апартаментах</h3>
+          </a>
+
+          <a href="#!" class="card">
+            <img class="card__img" src="./img/cards/04.jpg" alt="Hемонт вартире”">
+            <h3 class="card__title">Ремонт в з-х комнатной квартире</h3>
+          </a>
+
+        </div>
+      </div>
+    </section>
+
+    <section class="workslist" id="works">
+      <div class="container">
+        <div class="workslist__title">
+          <h2 class="title-2">Детали работ</h2>
+        </div>
+        <div class="workslist__wrapper">
+          <ul class="workslist__list">
+            <li class="workslist__item">
+              <p>Ремонт</p>
+              <p>Выполним ремонт любой сложности и любого помещения в назначенные сроки</p>
+            </li>
+            <li class="workslist__item">
+              <p>Дизайн проект</p>
+              <p>Составим индивидуальный дизайн - проект, исходя из ваших пожеланий</p>
+            </li>
+            <li class="workslist__item">
+              <p>Бесплатный замер</p>
+              <p>Замерщик предет на замер в любое удобное для вас время и бесплатно составит смету</p>
+            </li>
+            <li class="workslist__item">
+              <p>Закупка стройматериалов</p>
+              <p>Поможем или самостоятельно закупим стройматериалов со скидкой до 25%</p>
+            </li>
+            <li class="workslist__item">
+              <p>Бесплатная доставка</p>
+              <p>Обеспечим доставку стройматериалов в уставновленные сроки</p>
+            </li>
+            <li class="workslist__item">
+              <p>Уборка мусора</p>
+              <p>Выполним ремонт любой сложности и любого помещения в назначенные сроки</p>
+            </li>
+            <li class="workslist__item">
+              <p>Подарки клиентам</p>
+              <p>При заказе ремонта под ключ дарим приятные подарки нашим клиентам</p>
+            </li>
+            <li class="workslist__item">
+              <p>Контроль качества</p>
+              <p>В любой момент вы можете самостоятельно оценить качество выполняемых работ</p>
+            </li>
+          </ul>
+        </div>
+
+      </div>
+    </section>
+
+    <section class="cta none1" id="cta">
+      <div class="container">
+        <div class="cta__title">
+          <h2 class="title-2">Согласуем дату и время</h2>
+        </div>
+        <div class="cta__wrapper">
+
+          <div class="cta__text">
+            <p>Мы следим за изменениями в мире дизайна, в работе используем инновационные технологии и сертифицированные
+              материалы. Уверены, что качество может быть только высоким. Предлагаем удачные идеи и решения в
+              соответствии с направлением работы и бюджетом,создаем комфортное пространство, созданное в соответствии с
+              последними разработками дизайна.</p>
+          </div>
+
+          <form action="" class="cta__form form">
+            <input type="text" class="form__input" placeholder="Ваше имя" autocomplete="off">
+            <input data-tel-input type="text" class="form__input" placeholder="Ваш телефон" autocomplete="off">
+
+            <p class="form__privacy form__privacy--bottom">
+              *Мы никому не передаем ваши данные. <br>И не сохраняем ваш номер в базу.
+            </p>
+
+            <button type="submit" class="form__btn">Заказать звонок</button>
+          </form>
+        </div>
+      </div>
+    </section>
+
+
+    <section class="video none1">
+      <h2 class="visually-hidden">Видео про дизайн</h2>
+      <div class="container">
+
+        <a href="https://www.youtube.com/watch?v=bhJNL9JUsnY" data-youtubeLightbox class="video__link">
+          <img src="./img/video/play.svg" alt="" class="video__icon">
+          <img src="./img/video/video-img.jpg" alt="" class="video__img">
+        </a>
+      </div>
+    </section>
+
+    <section class="section-map none1" id="section-map">
+      <div class="container">
+        <div class="section-map__title">
+          <h2 class="title-2">Район на карте</h2>
+        </div>
+        <div class="section-map__map">
+          <div class="map" id="map"></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="feedback none1">
+      <div class="container">
+        <div class="feedback__title">
+          <h2 class="title-2">Есть вопросы?</h2>
+        </div>
+        <form class="feedback__form form">
+
+          <p class="form__privacy form__privacy--bottom">
+            *Мы никому не передаем ваши данные. <br>И не сохраняем ваш номер в базу.
+          </p>
+
+          <input type="text" class="form__input" placeholder="Ваше имя" autocomplete="off">
+          <input data-tel-input type="text" class="form__input" placeholder="Ваш телефон" autocomplete="off">
+
+          <button type="submit" class="form__btn">Заказать звонок</button>
+        </form>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="footer none1" id="footer">
+    <div class="container">
+      <div class="footer__grid">
+        <div class="footer__logo">
+          <a href="#!">
+            <img src="./img/logo.svg" alt="LoftHouse">
+          </a>
+        </div>
+        <div class="footer__nav">
+          <nav>
+            <ul class="footer__nav-list">
+              <li><a href="#!" data-scroll="#apartments">Портфолио</a></li>
+              <li><a href="#!" data-scroll="#works">Детали работы</a></li>
+              <li><a href="#!" data-scroll="#benefits">Как делаем</a></li>
+              <li><a href="#!" data-scroll="#cta">О нас</a></li>
+              <li><a href="#!" data-scroll="#section-map">Контакты</a></li>
+            </ul>
+          </nav>
+        </div>
+        <div class="footer__nav">
+          <nav>
+            <ul class="footer__nav-list">
+              <li><a href="#!">Статья на странице_1</a></li>
+              <li><a href="#!">Статья на странице_2</a></li>
+              <li><a href="#!">Статья на странице_3</a></li>
+              <li><a href="#!">Статья на странице_4</a></li>
+              <li><a href="#!">Статья на странице_5</a></li>
+            </ul>
+          </nav>
+        </div>
+        <div class="footer__address">
+          <ul class="footer__nav-list">
+            <li>Адрес: Инициативная 10-15</li>
+            <li>Телефон: <a href="tel:+78121234567">8 (812) 123-45-67</a></li>
+            <li>E-mail: <a class="link-bold" href="mailto:vip@lofthouse.ru">vardan@yandex.ru</a></li>
+          </ul>
+          <ul class="footer__socials">
+            <li><a href="#!"><img src="./img/socials/youtube.svg" alt=""></a></li>
+            <li><a href="#!"><img src="./img/socials/vk.svg" alt=""></a></li>
+            <li><a href="#!"><img src="./img/socials/facebook.svg" alt=""></a></li>
+            <li><a href="#!"><img src="./img/socials/instagram.svg" alt=""></a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- YouTube LightBox -->
+  <div id="youtubelightbox" class="youtubelightbox">
+    <div class="youtubelightbox__centeredchild">
+      <div class="youtubelightbox__videowrapper">
+        <div id="youtubelightboxPlayer"></div>
+      </div>
+    </div>
+  </div>
+
+  <script src="https://api-maps.yandex.ru/2.1/?apikey=4f537583-9ef9-4998-a98b-9a6ee160a9d3&lang=ru_RU"
+    type="text/javascript"></script>
+
+  <script src="./libs/phoneMask/mask.js"></script>
+  <script src="./libs/phoneMask/mask_list.js"></script>
+
+  <script src="./libs/youtubeLightbox/youtubeLightbox.js"></script>
+
+  <script src="./js/main.js"></script>
+  <script src="./js/scroll.js"></script>
+
+</body>
+
+</html>
